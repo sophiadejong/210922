@@ -9,3 +9,5 @@ if (x === 1) {
 
 console.log(x);
 // expected output: 1
+
+// hey
