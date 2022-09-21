@@ -23,3 +23,45 @@ console.log(obj.edad)
 for (let j = 0; j < index.length; j++) {
     console.log(obj[index[j]]);
 }
+
+// const obj2 = {};
+
+const obj2 = {
+    propUno: ""
+};
+
+// Anadiendo propiedades a los objectos 
+obj2.name = 'nombre';
+// obj2.name = false;
+
+// ARRAYS DEL FLECHAS
+
+// ITS THE SAMEEEE
+
+// const resta = (n1, n2) => {
+//     console.log(n1 - n2);
+//     return n1 - n2
+// }
+
+const resta = (n1, n2) => n1 - n2;
+
+console.log(resta(5,3));
+
+function resta3(n1, n2){
+    return n1 - n2;
+}
+
+var arr = {};
+
+for (let i = 0;i <= 100;i++){
+    console.log(i);
+}
+
+for (let i = 0; i <= 100; i++) {
+    if (i%2) {
+        ;
+        } else {
+        console.log(i);
+        continue;
+    }
+}
